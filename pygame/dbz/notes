@@ -1,0 +1,8 @@
+- movement: adjust character x and y coordinates. if x/y > screen width/height or < 0, pull the east/west/north/south map respectively. 
+
+- fighting: cut scenes with a specific engine for battles.
+
+
+
+
+

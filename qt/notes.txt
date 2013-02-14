@@ -1,0 +1,10 @@
+Things to make notes of when using qt for python:
+=================================================
+
+FILE EXTENSION
+* .pyw for gui applications (for windows interpreter and cross-platform compatability)
+
+QT FUNCS
+* QTextBrowser - read-only multiline text box
+* QLineEdit - single line text box 
+

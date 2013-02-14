@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: boa-constructor
+Version: 0.6.1
+Summary: Boa Constructor - Python IDE - wxPython GUI Builder
+NOTE: This installer will install under site-packages/boa-constructor.
+Home-page: http://boa-constructor.sourceforge.net
+Author: Riaan Booysen
+Author-email: riaan@e.co.za
+License: GPL
+Description: Boa Constructor is a cross platform RAD GUI Building wxPython IDE.
+        
+        It offers visual frame creation and manipulation, an object inspector,
+        many views on the source like a syntax highlighting editor with code
+        completion, call tips and code browsing, object explorers, documentation
+        generation, a debugger, integrated help and Python Shell.
+        There is also an explorer able to browse, open/edit, inspect and interact
+        with various data sources including files, CVS, SVN, Zope, FTP, DAV and SSH.
+        
+        It is written in Python and uses wxPython which wraps wxWidgets.
+        
+Platform: UNKNOWN
