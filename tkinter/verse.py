@@ -9,12 +9,14 @@ class App:
     
     def __init__(self, root):
         
-        self.createUI(root)
+        self.mainframe = Frame(root, width=300, height=200)
+        self.mainframe.pack()
+        self.createUI()
 
-    def createUI(self, root):
+    def createUI(self):
 
-        self.reference = Entry(root, width=17)
-        self.submit = Button(root, text="Get", command=self.getVerse)
+        self.reference = Entry(self.mainframe, width=17)
+        self.submit = Button(self.mainframe, text="Get", command=self.getVerse)
         self.reference.grid(row=0, column=0)
         self.submit.grid(row=0, column=1)
         
@@ -33,13 +35,14 @@ class App:
         passage = s.getvalue()
         passage = passage.replace('<b>', '')
         passage = passage.replace('</b>', '')
-        self.passage = Message(root, text=passage)
+        self.passage = Message(self.mainframe, text=passage, anchor=CENTER)
         self.passage.grid(row=1, column=0, columnspan=2)
         
 
 root = Tk()
 root.title('Bible Passage Search')
 root.minsize(300,200)
+root.maxsize(1400, 800)
 
 app = App(root)
 root.mainloop()
