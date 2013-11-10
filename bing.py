@@ -4,7 +4,7 @@ import webbrowser
 import time
 
 i = 0
-# create 45 tabs..
+# create 45 tabs.. (max of 45 bing rewards visits per day)
 while i < 45:
 	i += 1
 	url = 'http://www.bing.com/search?q=%d' % (i,)
